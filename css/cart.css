@@ -1,0 +1,106 @@
+header {
+    background-color: var(--footer-bg);
+    color: #fff;
+}
+header .fa-solid {
+    color: #fff;
+}
+header .logo .fa-solid {
+    font-size: 1.6rem;
+
+}
+header .sign-in:hover,
+header .register:hover
+ {
+    padding: 0.5rem 1.1rem;
+    border: 1px solid rgb(152, 154, 189);
+}
+header .cart:hover {
+    border: 1px solid rgb(152, 154, 189);
+    padding:0.5rem 1.1rem 0.5rem 0.7rem;
+}
+header .logo:hover {
+    scale: 0.95;
+}
+section.cart article.flex { 
+background-color: #fff;
+border-top: 2px solid var(--blue-button);
+margin-top: 1.8rem;
+justify-content: space-between;
+max-width: 450px;
+margin-inline: auto;
+border-radius: 4px;
+font-weight: 500;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+}
+& .title {
+    margin-right: 1rem;
+}
+& .increase {
+    color: var(--blue-button);
+    font-size: 1.4rem;
+}
+& .quantity{
+    background-color: var(--blue-button);
+    color: #fff;
+    height: 21px;
+    width:21px;
+    border-radius: 50%;
+    justify-content: center;
+    margin-inline:0.4rem ;
+}
+& .docrease {
+    color: var(--blue-button);
+    font-size: 1.9rem;
+}
+& .img{
+    margin-right: 2rem;
+}
+& .prico{
+    margin-right: 3rem;
+}
+& .fa-trash-can {
+    color: red;
+    margin-right: 5rem;
+    
+}
+button.clear {
+    background-color: red;
+    color: #fff;
+    border-radius: 3px;
+    padding: 6px 8px;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+section.summary {
+background-color: #fff;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+margin-inline: auto;
+widows: 233px;
+margin-top: 2.5rem;
+border-radius:4px;
+}
+section.summary h1 {
+    font-size: 1.2rem;
+    padding-block: 0.5rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}
+section.summary div.flex {
+    padding-inline: 0.5rem;
+    margin-block: 0.6rem;
+    justify-content: space-between;
+}
+section.summary button.checkout {
+    color: #fff;
+    background-color: var(--blue-button);
+    
+    width: 100%;
+    padding-block: 0.6rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+section.summary a {
+    padding-block: 0.5rem;
+    color: red;
+    font-size: 0.9rem;
+}
